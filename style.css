@@ -38,11 +38,19 @@ button {
 }
 
 #increment-btn {
-    background: darkgreen;
+    background-color: darkgreen;
     font-size: 40px;
+}
+
+#increment-btn:hover {
+    background-color: rgb(0, 143, 0);
 }
 
 #decrement-btn {
     background: darkred;
     font-size: 40px;
+}
+
+#decrement-btn:hover {
+    background-color: rgb(189, 1, 1);
 }
